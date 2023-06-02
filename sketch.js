@@ -41,12 +41,12 @@ function keyPressed(){
 
 function draw(){
   if (controleTela == "INICIO"){
-  mostraAbertura();
+    mostrarAbertura();
   }
   else{
     executarJogo();
   } if (controleTela == "MORTE"){
-    mostraFinal();
+    mostrarFinal();
   }
     }
 

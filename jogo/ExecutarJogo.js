@@ -22,7 +22,7 @@ function executarJogo(){
 
         if(personagem[i].img == imgPersonagem[3]){
           pontos = 0;
-          controleTela = ("MORTE");
+          //controleTela = ("MORTE");
           vida++;
         }  
 
@@ -41,7 +41,7 @@ function executarJogo(){
      }
       //pontução
        text("Pontuação: " + pontos,250,20); 
-       text("Bomba:" + vida,250,30)
+       text("Bomba:" + vida,250,30);
 
     
     }
